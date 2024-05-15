@@ -13,15 +13,30 @@
 
 {% for entry in company %}
 <div class="row featurette">
+    {% if loop.index % 2 != 0 %}
     <div class="col-md-7">
-        <h3>{{entry.name}}</h3>
+        <h3><a href="/about/{{entry.url}}">{{loop.index}}. {{entry.name}}</a></h3>
         <p>
-            {{entry['description']}}
+            {{entry.description}}
         </p>
     </div>
     <div class="col-md-5">
-        <img src="{{entry['image_source']}}" alt="{{entry['name']}}">
+        <img src="{{entry.image_source}}" alt="{{entry.name}}" class="featurette-image image-responsive" />
     </div>
+    {% else %}
+    <div class="col-md-5">
+        <img src="{{entry.image_source}}" alt="{{entry.name}}" class="featurette-image image-responsive" />
+    </div>
+    <div class="col-md-7">
+        <h3><a href="/about/{{entry.url}}">{{loop.index}}. {{entry.name}}</a></h3>
+        <p>
+            {{entry.description}}
+        </p>
+    </div>
+    {% endif %}
 </div>
+{% if loop.index != loop.length %}
+<hr class="featurette-divider">
+{% endif %}
 {% endfor %}
 {% endblock %}
