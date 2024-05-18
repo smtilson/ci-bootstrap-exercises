@@ -7,9 +7,9 @@ connection = psycopg2.connect(database="chinook")
 cursor = connection.cursor()
 
 # queries
-#Query 1
-#cursor.execute('''SELECT * FROM "Artist" WHERE "Name"='Billy Cobham' ''')
-cursor.execute('''SELECT * FROM "Album" WHERE "Title"='1000' ''')
+# Query 1
+# cursor.execute('''SELECT * FROM "Artist" WHERE "Name"='Billy Cobham' ''')
+cursor.execute("""SELECT * FROM "Album" WHERE "Title"='1000' """)
 # fetch the results (multiple)
 results = cursor.fetchall()
 
