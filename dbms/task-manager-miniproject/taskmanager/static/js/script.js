@@ -15,4 +15,6 @@ $(document).ready(function () {
   // Initializes select from Materialize
   let selects = document.querySelectorAll("select");
   M.FormSelect.init(selects);
+  // Initializes collapsibles from Materialize
+  $('.collapsible').collapsible();
 });
