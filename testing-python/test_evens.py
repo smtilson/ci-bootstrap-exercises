@@ -1,5 +1,6 @@
 import unittest
 from evens import even_num_of_evens
+from student import Student
 
 class TestEvens(unittest.TestCase):
     
