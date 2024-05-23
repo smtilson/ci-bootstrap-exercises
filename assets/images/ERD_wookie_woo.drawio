@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-05-23T17:29:49.436Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="l6tQoAnnH-SS3ZShNUT_" version="24.4.6" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-23T17:49:08.434Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="bEq_i1Y_0YjUgaAOxMTw" version="24.4.6" type="github">
   <diagram name="Page-1" id="7M-i5MnYyh6JKaDzocyO">
-    <mxGraphModel dx="3140" dy="960" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2568" dy="720" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -173,7 +173,7 @@
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="abeJFfH322CnHRvHTo6n-94" value="force_orientation int choices=Orientations" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" vertex="1" parent="abeJFfH322CnHRvHTo6n-92">
+        <mxCell id="abeJFfH322CnHRvHTo6n-94" value="force_allignment int choices=ALLIGNMENT" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" vertex="1" parent="abeJFfH322CnHRvHTo6n-92">
           <mxGeometry x="30" width="260" height="30" as="geometry">
             <mxRectangle width="260" height="30" as="alternateBounds" />
           </mxGeometry>
